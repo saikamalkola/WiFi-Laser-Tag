@@ -41,13 +41,13 @@ if(control_fire == 1)
     {
     Serial.println("Pressed, sending");
     tone(buzzer_pin,100);
-    irsend.sendNEC(0x7100, 16);
+    irsend.sendNEC(0x1100, 16);
     delay(50); // Wait a bit between retransmissions
     noTone(buzzer_pin);
     } 
   }
   else if (irrecv.decode(&results)) {
-    if(results.value == 0x1100)
+    if(results.value == 0x7100)
     {
     Serial.println(results.value,HEX);
     tone(buzzer_pin,50);
