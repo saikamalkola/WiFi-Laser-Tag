@@ -1,0 +1,62 @@
+h1,h2,h4{
+	text-align: center;
+	color:grey;
+}
+body{
+	background-color: white;
+	font-family:sans-serif;
+}
+table{
+	font-family: Trebuchet MS;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	width : 75%;
+	border-collapse: collapse;
+}
+th{
+	height : 40px;
+	background: #4CAF50;
+	color: white;
+}
+tr{
+	background: #F2F2F2;
+	text-align: center;
+}
+td{
+	height: 40px;
+}
+
+input[type=text],input[type=email]{
+	background: white;
+	border: 2px solid #F2F2F2;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 15px;
+}
+input[type=submit]
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    cursor: pointer;
+    margin:auto;
+    margin-bottom: 20px;
+    display: block;
+}
+p{
+	text-align: center;
+	color:grey;
+}
+
+#team_button{
+    background-color: 4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+}
